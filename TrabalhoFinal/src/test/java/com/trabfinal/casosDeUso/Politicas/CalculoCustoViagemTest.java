@@ -4,19 +4,14 @@ import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;
 import com.trabfinal.interfaces.Persistencia.RepositorioBairrosImplMem;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
-import java.util.Collection;
-
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class CalculoCustoViagemTest {
