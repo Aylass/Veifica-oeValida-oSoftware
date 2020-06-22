@@ -1,0 +1,36 @@
+
+Qcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico#calculoCustoBasico()D¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java ($"1*ã
+1¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java (­
+ª
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java (%
+%0com.trabfinal.entidades.Roteiro"__id*L*J=
+;com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico"	
+roteiro×Ô
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java (*
+%1java.util.Collection"Icom.trabfinal.entidades.Roteiro#bairrosPercoridos()Ljava/util/Collection;*'
+%
+%0com.trabfinal.entidades.Roteiro2bairrosPercoridos()±®
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java (
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.Collection2stream()Ÿœ
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java  (6#
+%3java.util.stream.DoubleStream"ijava.util.stream.Stream#mapToDouble(Ljava/util/function/ToDoubleFunction;)Ljava/util/stream/DoubleStream;*
+
+%2java.util.stream.Stream*
+""22mapToDouble(Ljava/util/function/ToDoubleFunction;)”‘
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java !(
+%4double"$java.util.stream.DoubleStream#sum()D*%
+#
+%3java.util.stream.DoubleStream2sum()"·
+¬
+¡C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemBasico.java !(
+""B?=
+;com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico
