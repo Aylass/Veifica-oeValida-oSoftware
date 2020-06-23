@@ -1,0 +1,69 @@
+
+ìcom.trabfinal.entidades.Bairro#novoBairroRetangular(Ljava/lang/String;Lcom/trabfinal/entidades/geometria/Ponto;IID)Lcom/trabfinal/entidades/Bairro;è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (-"1*á
+1è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java" ()èå
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java" (0	
+%0int"/com.trabfinal.entidades.geometria.Ponto#getX()I*4
+2
+pSupEsq'com.trabfinal.entidades.geometria.Ponto2getX()èå
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java7 (E	
+%1int"/com.trabfinal.entidades.geometria.Ponto#getY()I*4
+2
+pSupEsq'com.trabfinal.entidades.geometria.Ponto2getY()ÌÍ
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (!-
+%2'com.trabfinal.entidades.geometria.Ponto"'com.trabfinal.entidades.geometria.Pontoë
+é
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (L
+%3"3com.trabfinal.entidades.geometria.Ponto#<init>(II)V*/
+-
+%2'com.trabfinal.entidades.geometria.Ponto*
+""*
+""Ä
+˝
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (M2
+pInfDir'com.trabfinal.entidades.geometria.Ponto"__id*/
+-
+%2'com.trabfinal.entidades.geometria.PontoÎË
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java# (',
+%4&com.trabfinal.entidades.geometria.Area"&com.trabfinal.entidades.geometria.Areaº
+π
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (8
+%5"Çcom.trabfinal.entidades.geometria.Area#<init>(Lcom/trabfinal/entidades/geometria/Ponto;Lcom/trabfinal/entidades/geometria/Ponto;)V*.
+,
+%4&com.trabfinal.entidades.geometria.Area*4
+2
+pSupEsq'com.trabfinal.entidades.geometria.Ponto*4
+2
+pInfDir'com.trabfinal.entidades.geometria.Ponto€ÿ
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java ($
+%6com.trabfinal.entidades.Bairro"com.trabfinal.entidades.Bairro¸
+˘
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (I
+%7"ccom.trabfinal.entidades.Bairro#<init>(Ljava/lang/String;Lcom/trabfinal/entidades/geometria/Area;D)V*&
+$
+%6com.trabfinal.entidades.Bairro*
+
+nomejava.lang.String*.
+,
+%4&com.trabfinal.entidades.geometria.Area*
+"""∫
+è
+ÑC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Bairro.java (J&
+$
+%6com.trabfinal.entidades.Bairro:
+nomejava.lang.String:2
+pSupEsq'com.trabfinal.entidades.geometria.Ponto:
+"":
+"":
+""B"" 
+com.trabfinal.entidades.Bairro

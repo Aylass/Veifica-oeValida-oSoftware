@@ -1,0 +1,71 @@
+
+1com.trabfinal.entidades.geometria.Reta#tamanho()Dó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java ("1*
+1ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (Ü
+É
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (-
+%0'com.trabfinal.entidades.geometria.Ponto"__id*2*0(
+&com.trabfinal.entidades.geometria.Reta"
+p2íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (	
+%1int"/com.trabfinal.entidades.geometria.Ponto#getX()I*/
+-
+%0'com.trabfinal.entidades.geometria.Ponto2getX()Ü
+É
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (!-
+%2'com.trabfinal.entidades.geometria.Ponto"__id*2*0(
+&com.trabfinal.entidades.geometria.Reta"
+p1íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java ((	
+%3int"/com.trabfinal.entidades.geometria.Ponto#getX()I*/
+-
+%2'com.trabfinal.entidades.geometria.Ponto2getX()Ê
+„
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (+
+%4double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*2Ü
+É
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (-
+%5'com.trabfinal.entidades.geometria.Ponto"__id*2*0(
+&com.trabfinal.entidades.geometria.Reta"
+p2íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (	
+%6int"/com.trabfinal.entidades.geometria.Ponto#getY()I*/
+-
+%5'com.trabfinal.entidades.geometria.Ponto2getY()Ü
+É
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (!-
+%7'com.trabfinal.entidades.geometria.Ponto"__id*2*0(
+&com.trabfinal.entidades.geometria.Reta"
+p1íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java ((	
+%8int"/com.trabfinal.entidades.geometria.Ponto#getY()I*/
+-
+%7'com.trabfinal.entidades.geometria.Ponto2getY()Ê
+„
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (+
+%9double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*2·
+ﬁ
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (,
+%10double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+"""¢
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Reta.java (-
+""B*(
+&com.trabfinal.entidades.geometria.Reta

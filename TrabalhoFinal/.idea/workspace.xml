@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="08bc9134-ba72-43ef-84e6-7b195aea6a95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrabalhoFinal.iml" beforeDir="false" />
@@ -14,9 +15,25 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/geometria/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/geometria/Area.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trabfinal/Area/unitario/AreaTesteUnitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trabfinal/entidades/Testeunitario/AreaTesteUnitario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+=======
+    <list default="true" id="e666e106-6434-4aa6-9820-f3814d576079" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/Bairro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/Bairro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/Passageiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabfinal/entidades/Passageiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trabfinal/entidades/TestIntegracao/ViagemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trabfinal/entidades/TestIntegracao/ViagemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Bairro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Bairro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Passageiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Passageiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Roteiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/Roteiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/geometria/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabfinal/entidades/geometria/Area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabfinal/interfaces/Persistencia/RepositorioBairrosImplMem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabfinal/interfaces/Persistencia/RepositorioBairrosImplMem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemTest.class" afterDir="false" />
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +56,7 @@
     <expand />
     <select />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
@@ -135,10 +153,19 @@
         </entry>
       </file>
     </leaf>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -153,12 +180,15 @@
       <select />
     </treeState>
   </component>
+=======
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -242,7 +272,10 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -257,6 +290,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -335,6 +369,10 @@
       </method>
     </configuration>
     <configuration name="AreaTesteUnitario.mensagemDeExcecao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager">
+    <configuration name="AreaTesteUnitario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -416,6 +454,7 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="12046000" />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
@@ -450,13 +489,22 @@
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24939272" />
     </layout>
   </component>
+=======
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592868526544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1592868526544" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/trabfinal/entidades/TestIntegracao/BairroTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,6 +594,8 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">

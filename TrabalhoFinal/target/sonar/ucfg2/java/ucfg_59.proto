@@ -1,0 +1,85 @@
+
+‡com.trabfinal.casosDeUso.Servicos.ServicosPassageiro#criaRoteiro(Ljava/lang/String;Ljava/lang/String;)Lcom/trabfinal/entidades/Roteiro;¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java+ +("1*Ë 
+1¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java,* ,(4»
+¸
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java,* ,(4>
+%08com.trabfinal.casosDeUso.Repositorios.RepositorioBairros"__id*H*F6
+4com.trabfinal.casosDeUso.Servicos.ServicosPassageiro"
+
+repBairrosüù
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java,* ,(K
+%1java.util.List"_com.trabfinal.casosDeUso.Repositorios.RepositorioBairros#recuperaListaBairros()Ljava/util/List;*@
+>
+%08com.trabfinal.casosDeUso.Repositorios.RepositorioBairros2recuperaListaBairros()ï
+ì
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java, ,(L$
+todosBairrosjava.util.Collection"__id*
+
+%1java.util.List»
+¸
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java- -(#>
+%28com.trabfinal.casosDeUso.Repositorios.RepositorioBairros"__id*H*F6
+4com.trabfinal.casosDeUso.Servicos.ServicosPassageiro"
+
+repBairrosÚ×
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java- -(A$
+%3com.trabfinal.entidades.Bairro"|com.trabfinal.casosDeUso.Repositorios.RepositorioBairros#recuperaPorNome(Ljava/lang/String;)Lcom/trabfinal/entidades/Bairro;*@
+>
+%28com.trabfinal.casosDeUso.Repositorios.RepositorioBairros*"
+ 
+bairroOrigemjava.lang.String2#recuperaPorNome(Ljava/lang/String;)„
+
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java- -(B)
+bOrigemcom.trabfinal.entidades.Bairro"__id*&
+$
+%3com.trabfinal.entidades.Bairro»
+¸
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java. .($>
+%48com.trabfinal.casosDeUso.Repositorios.RepositorioBairros"__id*H*F6
+4com.trabfinal.casosDeUso.Servicos.ServicosPassageiro"
+
+repBairrosÛØ
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java. .(C$
+%5com.trabfinal.entidades.Bairro"|com.trabfinal.casosDeUso.Repositorios.RepositorioBairros#recuperaPorNome(Ljava/lang/String;)Lcom/trabfinal/entidades/Bairro;*@
+>
+%48com.trabfinal.casosDeUso.Repositorios.RepositorioBairros*#
+!
+bairroDestinojava.lang.String2#recuperaPorNome(Ljava/lang/String;)…
+‚
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java. .(D*
+bDestinocom.trabfinal.entidades.Bairro"__id*&
+$
+%5com.trabfinal.entidades.Bairroóð
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java/ /(%
+%6com.trabfinal.entidades.Roteiro"com.trabfinal.entidades.RoteiroÞ
+Û
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java/ /(9
+%7"com.trabfinal.entidades.Roteiro#<init>(Lcom/trabfinal/entidades/Bairro;Lcom/trabfinal/entidades/Bairro;Ljava/util/Collection;)V*'
+%
+%6com.trabfinal.entidades.Roteiro*+
+)
+bOrigemcom.trabfinal.entidades.Bairro*,
+*
+bDestinocom.trabfinal.entidades.Bairro*&
+$
+todosBairrosjava.util.Collection"Ñ
+¥
+šC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Servicos/ServicosPassageiro.java/ /(:'
+%
+%6com.trabfinal.entidades.Roteiro: 
+bairroOrigemjava.lang.String:!
+bairroDestinojava.lang.StringB86
+4com.trabfinal.casosDeUso.Servicos.ServicosPassageiro
