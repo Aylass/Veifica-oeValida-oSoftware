@@ -14,7 +14,7 @@ public class Passageiro{
 		return new Passageiro(cpf,nome,pontuacaoAcumulada,qtdadeAvaliacoes);
 	}
 
-	private Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
+	public Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
 		this.cpf = cpf;
 		this.nome = nome;
 		this.pontuacaoAcumulada = pontuacaoAcumulada;
