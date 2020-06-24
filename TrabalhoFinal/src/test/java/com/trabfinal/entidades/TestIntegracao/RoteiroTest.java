@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RoteiroTest {
 
     Reta reta;
-
     Roteiro roteiro;    
     Passageiro passageiro;
 
