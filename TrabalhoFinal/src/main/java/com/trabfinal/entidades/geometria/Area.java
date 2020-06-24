@@ -4,7 +4,7 @@ public class Area {
     private Ponto pSupEsq, pInfDir;
 
     public Area(Ponto pSupEsq, Ponto pInfDir) {
-        System.out.println("ex= "+pSupEsq.getX()+"ey= "+pSupEsq.getY()+"dx= "+pInfDir.getX()+"dy= "+pInfDir.getY());
+//        System.out.println("ex= "+pSupEsq.getX()+"ey= "+pSupEsq.getY()+"dx= "+pInfDir.getX()+"dy= "+pInfDir.getY());
         if ((pSupEsq.getX() >= pInfDir.getX()) || (pSupEsq.getY() <= pInfDir.getY())) {
             throw new IllegalArgumentException("O retangulo deve ser definido pela diagonal principal");
         } else {

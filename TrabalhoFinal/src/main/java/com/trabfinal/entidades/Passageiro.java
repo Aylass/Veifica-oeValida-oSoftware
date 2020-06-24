@@ -13,11 +13,7 @@ public class Passageiro{
 	public static Passageiro passageiroExistente(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes){
 		return new Passageiro(cpf,nome,pontuacaoAcumulada,qtdadeAvaliacoes);
 	}
-<<<<<<< HEAD
-
-=======
 // Tive que remover a palavra PRIVATE desse método de baixo
->>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
 	public Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
 		this.cpf = cpf;
 		this.nome = nome;
