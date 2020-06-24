@@ -17,11 +17,6 @@ public class Bairro {
         Ponto pInfDir = new Ponto(pSupEsq.getX()+ladoH,pSupEsq.getY()-ladoV);
         return new Bairro(nome,new Area(pSupEsq,pInfDir),custoTransporte);
     }
-<<<<<<< HEAD
-    
-=======
-    // Tive que remover a palavra PRIVATE desse método de baixo
->>>>>>> 380347b3179f332a7c09fc0842a4069424a7ba59
     public Bairro(String nome, Area area, double custoTransporte) {
         this.nome = nome;
         this.area = area;

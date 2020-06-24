@@ -31,5 +31,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="com.google.code.maven-play-plugin.com.google.code.eamelink-mockito:mockito-all:1.9.1-201109112" level="application" />
+    <orderEntry type="module" module-name="main" />
   </component>
 </module>
