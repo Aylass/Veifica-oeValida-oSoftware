@@ -3,6 +3,7 @@ import com.trabfinal.entidades.geometria.Area;
 import com.trabfinal.entidades.geometria.Ponto;
 import com.trabfinal.entidades.geometria.Reta;
 import com.trabfinal.entidades.geometria.SituacaoReta;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,13 +15,21 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
     private static Ponto pontoSupEsq, pontoInfDir, pontoReta,pontoReta2;
     private static Reta reta;
 
+    @BeforeEach
+    void setup(){
+        pontoSupEsq=mock(Ponto.class);
+        pontoInfDir=mock(Ponto.class);
+        pontoReta=mock(Ponto.class);
+        reta=mock(Reta.class);
+        pontoReta=mock(Ponto.class);
+        pontoReta2=mock(Ponto.class);
+        reta=mock(Reta.class);
+    }
     @Test
     void construtorTest1() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(10);
         when(pontoSupEsq.getY()).thenReturn(5);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(20);
         when(pontoInfDir.getY()).thenReturn(0);
 
@@ -30,11 +39,10 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void construtorTest2() {
-        pontoSupEsq=mock(Ponto.class);
+
         when(pontoSupEsq.getX()).thenReturn(-20);
         when(pontoSupEsq.getY()).thenReturn(-10);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(-5);
         when(pontoInfDir.getY()).thenReturn(-20);
 
@@ -44,11 +52,9 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void construtorTest3() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(10);
         when(pontoSupEsq.getY()).thenReturn(5);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(3);
         when(pontoInfDir.getY()).thenReturn(14);
         Throwable exception= assertThrows(IllegalArgumentException.class, ()->new Area(pontoSupEsq,pontoInfDir));
@@ -57,11 +63,9 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
      void pontoCentral1X() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(3);
         when(pontoSupEsq.getY()).thenReturn(14);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
@@ -71,11 +75,9 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
      void pontoCentral1Y() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(3);
         when(pontoSupEsq.getY()).thenReturn(14);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
@@ -85,11 +87,9 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void pontoCentral2X() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(5);
         when(pontoSupEsq.getY()).thenReturn(10);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(15);
         when(pontoInfDir.getY()).thenReturn(2);
 
@@ -99,11 +99,9 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void pontoCentral2y() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(5);
         when(pontoSupEsq.getY()).thenReturn(10);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(15);
         when(pontoInfDir.getY()).thenReturn(2);
 
@@ -113,15 +111,12 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
      void codificaPonto1() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(8);
         when(pontoSupEsq.getY()).thenReturn(7);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(12);
         when(pontoReta.getY()).thenReturn(10);
 
@@ -131,15 +126,12 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void codificaPonto2() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(8);
         when(pontoSupEsq.getY()).thenReturn(7);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(6);
         when(pontoReta.getY()).thenReturn(3);
 
@@ -149,15 +141,12 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void codificaPonto3() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(8);
         when(pontoSupEsq.getY()).thenReturn(7);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(6);
         when(pontoReta.getY()).thenReturn(9);
 
@@ -167,15 +156,12 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void codificaPonto4() {
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(8);
         when(pontoSupEsq.getY()).thenReturn(7);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(10);
         when(pontoInfDir.getY()).thenReturn(5);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(12);
         when(pontoReta.getY()).thenReturn(3);
 
@@ -185,16 +171,12 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void classifica1() {
-
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(9);
         when(pontoSupEsq.getY()).thenReturn(5);
 
-        pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(12);
         when(pontoInfDir.getY()).thenReturn(3);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(12);
         when(pontoReta.getY()).thenReturn(5);
 
@@ -214,23 +196,22 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
     @Test
     void classifica2() {
 
-        pontoSupEsq=mock(Ponto.class);
+
         when(pontoSupEsq.getX()).thenReturn(9);
         when(pontoSupEsq.getY()).thenReturn(5);
 
-        pontoInfDir=mock(Ponto.class);
+
         when(pontoInfDir.getX()).thenReturn(12);
         when(pontoInfDir.getY()).thenReturn(3);
 
-        pontoReta=mock(Ponto.class);
+
         when(pontoReta.getX()).thenReturn(10);
         when(pontoReta.getY()).thenReturn(8);
 
-        pontoReta2=mock(Ponto.class);
         when(pontoReta2.getX()).thenReturn(7);
         when(pontoReta2.getY()).thenReturn(4);
 
-        reta=mock(Reta.class);
+
         when(reta.getP1()).thenReturn(pontoReta);
         when(reta.getP2()).thenReturn(pontoReta2);
 
@@ -241,24 +222,19 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
 
     @Test
     void classifica3() {
-
-        pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(9);
         when(pontoSupEsq.getY()).thenReturn(5);
 
-        pontoInfDir=mock(Ponto.class);
+
         when(pontoInfDir.getX()).thenReturn(12);
         when(pontoInfDir.getY()).thenReturn(3);
 
-        pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(12);
         when(pontoReta.getY()).thenReturn(9);
 
-        pontoReta2=mock(Ponto.class);
         when(pontoReta2.getX()).thenReturn(12);
         when(pontoReta2.getY()).thenReturn(7);
 
-        reta=mock(Reta.class);
         when(reta.getP1()).thenReturn(pontoReta);
         when(reta.getP2()).thenReturn(pontoReta2);
 
@@ -267,5 +243,26 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
         assertEquals(SituacaoReta.TODA_FORA,area.classifica(reta));
     }
 
+    @Test
+    void bugClassifica(){
+        when(pontoSupEsq.getX()).thenReturn(3);
+        when(pontoSupEsq.getY()).thenReturn(4);
+
+        when(pontoInfDir.getX()).thenReturn(4);
+        when(pontoInfDir.getY()).thenReturn(3);
+
+        when(pontoReta.getX()).thenReturn(4);
+        when(pontoReta.getY()).thenReturn(2);
+
+        when(pontoReta2.getX()).thenReturn(5);
+        when(pontoReta2.getY()).thenReturn(3);
+
+        when(reta.getP1()).thenReturn(pontoReta);
+        when(reta.getP2()).thenReturn(pontoReta2);
+
+
+        Area area = new Area(pontoSupEsq,pontoInfDir); // BUG FOUND ?
+        assertEquals(SituacaoReta.TODA_FORA,area.classifica(reta));
+    }
 
 }
