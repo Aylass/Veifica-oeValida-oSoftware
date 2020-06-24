@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.trabfinal.entidades.TestIntegracao.AreaTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in com.trabfinal.entidades.TestIntegracao.AreaTest
+TestPonto2  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.AreaTest.setup(AreaTest.java:23)
+
+TestPonto  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.AreaTest.setup(AreaTest.java:23)
+

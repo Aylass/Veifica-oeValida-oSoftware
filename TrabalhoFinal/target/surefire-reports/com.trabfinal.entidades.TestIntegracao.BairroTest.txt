@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.trabfinal.entidades.TestIntegracao.BairroTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE! - in com.trabfinal.entidades.TestIntegracao.BairroTest
+TestArea  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.BairroTest.setup(BairroTest.java:27)
+

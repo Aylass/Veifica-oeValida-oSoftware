@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.trabfinal.entidades.TestIntegracao.ViagemTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.trabfinal.entidades.TestIntegracao.ViagemTest
+TestRoteiro  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.ViagemTest.setup(ViagemTest.java:38)
+
+TestPassageiroCPF  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.ViagemTest.setup(ViagemTest.java:38)
+
+TestPassageiroNome  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.trabfinal.entidades.TestIntegracao.ViagemTest.setup(ViagemTest.java:38)
+
