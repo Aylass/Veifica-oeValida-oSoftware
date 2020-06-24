@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class AreaTesteUnitario {
+public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o erro
     private static Ponto pontoSupEsq, pontoInfDir, pontoReta,pontoReta2;
     private static Reta reta;
 
@@ -199,8 +199,36 @@ public class AreaTesteUnitario {
         when(pontoReta.getY()).thenReturn(5);
 
         pontoReta2=mock(Ponto.class);
-        when(pontoReta2.getX()).thenReturn(8);
-        when(pontoReta2.getY()).thenReturn(7);
+        when(pontoReta2.getX()).thenReturn(9);
+        when(pontoReta2.getY()).thenReturn(3);
+
+        reta=mock(Reta.class);
+        when(reta.getP1()).thenReturn(pontoReta);
+        when(reta.getP2()).thenReturn(pontoReta2);
+
+
+        Area area=new Area(pontoSupEsq,pontoInfDir);
+        assertEquals(SituacaoReta.TODA_DENTRO,area.classifica(reta));
+    }
+
+    @Test
+    void classifica2() {
+
+        pontoSupEsq=mock(Ponto.class);
+        when(pontoSupEsq.getX()).thenReturn(9);
+        when(pontoSupEsq.getY()).thenReturn(5);
+
+        pontoInfDir=mock(Ponto.class);
+        when(pontoInfDir.getX()).thenReturn(12);
+        when(pontoInfDir.getY()).thenReturn(3);
+
+        pontoReta=mock(Ponto.class);
+        when(pontoReta.getX()).thenReturn(10);
+        when(pontoReta.getY()).thenReturn(8);
+
+        pontoReta2=mock(Ponto.class);
+        when(pontoReta2.getX()).thenReturn(7);
+        when(pontoReta2.getY()).thenReturn(4);
 
         reta=mock(Reta.class);
         when(reta.getP1()).thenReturn(pontoReta);
@@ -212,11 +240,11 @@ public class AreaTesteUnitario {
     }
 
     @Test
-    void classifica2() {
+    void classifica3() {
 
         pontoSupEsq=mock(Ponto.class);
         when(pontoSupEsq.getX()).thenReturn(9);
-        when(pontoSupEsq.getY()).thenReturn(8);
+        when(pontoSupEsq.getY()).thenReturn(5);
 
         pontoInfDir=mock(Ponto.class);
         when(pontoInfDir.getX()).thenReturn(12);
@@ -224,11 +252,11 @@ public class AreaTesteUnitario {
 
         pontoReta=mock(Ponto.class);
         when(pontoReta.getX()).thenReturn(12);
-        when(pontoReta.getY()).thenReturn(13);
+        when(pontoReta.getY()).thenReturn(9);
 
         pontoReta2=mock(Ponto.class);
-        when(pontoReta2.getX()).thenReturn(8);
-        when(pontoReta2.getY()).thenReturn(14);
+        when(pontoReta2.getX()).thenReturn(12);
+        when(pontoReta2.getY()).thenReturn(7);
 
         reta=mock(Reta.class);
         when(reta.getP1()).thenReturn(pontoReta);
@@ -236,7 +264,7 @@ public class AreaTesteUnitario {
 
 
         Area area=new Area(pontoSupEsq,pontoInfDir);
-        assertEquals(SituacaoReta.INTERSECTA,area.classifica(reta));
+        assertEquals(SituacaoReta.TODA_FORA,area.classifica(reta));
     }
 
 
