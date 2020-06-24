@@ -1,36 +1,0 @@
-
-Ucom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemVerao#descontoPromocaoSazonal()D«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java ()"3*ê
-2«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java ("¶
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java (
-""*”
-3«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java (&‘Ž
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java ((%
-%0com.trabfinal.entidades.Roteiro"icom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico#getRoteiro()Lcom/trabfinal/entidades/Roteiro;*><
-:com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemVerao2getRoteiro()ÖÓ
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java (<
-%1java.util.Collection"Icom.trabfinal.entidades.Roteiro#bairrosPercoridos()Ljava/util/Collection;*'
-%
-%0com.trabfinal.entidades.Roteiro2bairrosPercoridos()€ý
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java (C	
-%2int"java.util.Collection#size()I*
-
-%1java.util.Collection2size()èå
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java ((
-%3double"Qcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico#calculoCustoBasico()D*><
-:com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemVerao2calculoCustoBasico()*
-2
-1*ê
-1«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java ("¶
-«
- C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemVerao.java (
-""B><
-:com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemVerao
