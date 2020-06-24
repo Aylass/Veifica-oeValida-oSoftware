@@ -1,0 +1,52 @@
+
+‚com.trabfinal.casosDeUso.Politicas.CustoViagem#custoViagem(Lcom/trabfinal/entidades/Roteiro;Lcom/trabfinal/entidades/Passageiro;)DŸ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java ("1*ž
+1Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java (¥
+¢
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java (;
+%05com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem"__id*;*90
+.com.trabfinal.casosDeUso.Politicas.CustoViagem"
+ccv¹¶
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java ("
+
+%1void"gcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagem#defineRoteiro(Lcom/trabfinal/entidades/Roteiro;)V*=
+;
+%05com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem*,
+*
+roteirocom.trabfinal.entidades.Roteiro20defineRoteiro(Lcom/trabfinal/entidades/Roteiro;)¥
+¢
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java (;
+%25com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem"__id*;*90
+.com.trabfinal.casosDeUso.Politicas.CustoViagem"
+ccvËÈ
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java ((
+
+%3void"mcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagem#definePassageiro(Lcom/trabfinal/entidades/Passageiro;)V*=
+;
+%25com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem*2
+0
+
+passageiro"com.trabfinal.entidades.Passageiro26definePassageiro(Lcom/trabfinal/entidades/Passageiro;)¥
+¢
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java (;
+%45com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem"__id*;*90
+.com.trabfinal.casosDeUso.Politicas.CustoViagem"
+ccvÇÄ
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java ( 
+%5double"Dcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagem#custoViagem()D*=
+;
+%45com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem2custoViagem()"ª
+Ÿ
+”C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CustoViagem.java (!
+"":*
+roteirocom.trabfinal.entidades.Roteiro:0
+
+passageiro"com.trabfinal.entidades.PassageiroB20
+.com.trabfinal.casosDeUso.Politicas.CustoViagem

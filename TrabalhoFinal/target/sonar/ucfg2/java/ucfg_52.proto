@@ -1,0 +1,90 @@
+
+^com.trabfinal.entidades.geometria.Area#pontoCentral()Lcom/trabfinal/entidades/geometria/Ponto;ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java ("1*Æ(
+1ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (‰·
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (-
+%0'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPSupEsq()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPSupEsq()íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (#	
+%1int"/com.trabfinal.entidades.geometria.Ponto#getX()I*/
+-
+%0'com.trabfinal.entidades.geometria.Ponto2getX()‰·
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java- (9-
+%2'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPInfDir()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPInfDir()íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java- (@	
+%3int"/com.trabfinal.entidades.geometria.Ponto#getX()I*/
+-
+%2'com.trabfinal.entidades.geometria.Ponto2getX()‰·
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.javaC (O-
+%4'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPSupEsq()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPSupEsq()íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.javaC (V	
+%5int"/com.trabfinal.entidades.geometria.Ponto#getX()I*/
+-
+%4'com.trabfinal.entidades.geometria.Ponto2getX()‹
+Ÿ
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java$ (W	
+%6int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+""‰·
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (-
+%7'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPSupEsq()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPSupEsq()íè
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (#	
+%8int"/com.trabfinal.entidades.geometria.Ponto#getY()I*/
+-
+%7'com.trabfinal.entidades.geometria.Ponto2getY()‰·
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java- (9-
+%9'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPInfDir()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPInfDir()ìê
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java- (@
+
+%10int"/com.trabfinal.entidades.geometria.Ponto#getY()I*/
+-
+%9'com.trabfinal.entidades.geometria.Ponto2getY()Â‚
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.javaC (O.
+%11'com.trabfinal.entidades.geometria.Ponto"\com.trabfinal.entidades.geometria.Area#getPSupEsq()Lcom/trabfinal/entidades/geometria/Ponto;**(
+&com.trabfinal.entidades.geometria.Area2getPSupEsq()îë
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.javaC (V
+
+%12int"/com.trabfinal.entidades.geometria.Ponto#getY()I*0
+.
+%11'com.trabfinal.entidades.geometria.Ponto2getY()›
+⁄
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java$ (W
+
+%13int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+""ˆÛ
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (.
+%14'com.trabfinal.entidades.geometria.Ponto"'com.trabfinal.entidades.geometria.Pontoõ
+ò
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (
+%15"3com.trabfinal.entidades.geometria.Ponto#<init>(II)V*0
+.
+%14'com.trabfinal.entidades.geometria.Ponto*
+""*
+"""Ã
+ó
+åC:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/geometria/Area.java (0
+.
+%14'com.trabfinal.entidades.geometria.PontoB*(
+&com.trabfinal.entidades.geometria.Area

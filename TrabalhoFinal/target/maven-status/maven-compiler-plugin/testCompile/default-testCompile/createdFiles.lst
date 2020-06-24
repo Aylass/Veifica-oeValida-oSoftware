@@ -1,1 +1,5 @@
+com\trabfinal\entidades\TestIntegracao\AreaTest.class
+com\trabfinal\entidades\TestIntegracao\ViagemTest.class
 com\trabfinal\casosDeUso\Politicas\CalculoCustoViagemTest.class
+com\trabfinal\entidades\TestIntegracao\BairroTest.class
+com\trabfinal\Area\unitario\AreaTesteUnitario.class

@@ -29,19 +29,20 @@ public class ViagemTest {
 
     @BeforeEach
     void setup(){
-        passageiro = new Passageiro("00022224455", "Anivia",8,1); 
-        
+        passageiro = new Passageiro("00022224455", "Anivia",8,1);
+
         Ponto ponfdir = new Ponto(122,22);
         Ponto ponfesq = new Ponto(100,25);
         Area area = new Area(ponfesq,ponfdir);
         bairroDestino = new Bairro("Partenon",area,10.20);
+        bairroOrigem = new Bairro("Mário Quintana",area,20.00);
         bairroOrigem.novoBairroQuadrado("Partenon", ponfesq, 4, 20.50);
         listbairro = new ArrayList<Bairro>();
         listbairro.add(bairroDestino);
         listbairro.add(bairroOrigem);
         roteiro = new Roteiro(bairroOrigem, bairroDestino, listbairro);
 
-        LocalDateTime datahora = LocalDateTime.of(2017, 2, 13, 15, 56);   
+        LocalDateTime datahora = LocalDateTime.of(2017, 2, 13, 15, 56);
         viagem = new Viagem(4, datahora, roteiro, passageiro, 12.50);
     }
 

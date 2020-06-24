@@ -1,0 +1,36 @@
+
+Ycom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemRelampago#descontoPromocaoSazonal()D¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java ()"3*ò
+2¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java ("º
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java (
+""*°
+3¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java (&™–
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java ((%
+%0com.trabfinal.entidades.Roteiro"icom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico#getRoteiro()Lcom/trabfinal/entidades/Roteiro;*B@
+>com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemRelampago2getRoteiro()Ú×
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java (<
+%1java.util.Collection"Icom.trabfinal.entidades.Roteiro#bairrosPercoridos()Ljava/util/Collection;*'
+%
+%0com.trabfinal.entidades.Roteiro2bairrosPercoridos()„
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java (C	
+%2int"java.util.Collection#size()I*
+
+%1java.util.Collection2size()ðí
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java ((
+%3double"Qcom.trabfinal.casosDeUso.Politicas.CalculoCustoViagemBasico#calculoCustoBasico()D*B@
+>com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemRelampago2calculoCustoBasico()*
+2
+1*ò
+1¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java ("º
+¯
+¤C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/casosDeUso/Politicas/CalculoCustoViagemRelampago.java (
+""BB@
+>com.trabfinal.casosDeUso.Politicas.CalculoCustoViagemRelampago
