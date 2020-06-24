@@ -1,51 +1,0 @@
-
-<com.trabfinal.entidades.Roteiro#toString()Ljava/lang/String;
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java2 2("1*‚
-1
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3((ú
-÷
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3+ 3(8$
-%0com.trabfinal.entidades.Bairro"__id*6*4!
-com.trabfinal.entidades.Roteiro"
-bairroDestinoý
-ú
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3(8
-%1java.lang.String"__concat*
-Roteiro [bairroDestino=*&
-$
-%0com.trabfinal.entidades.Bairroç
-ä
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3(L
-%2java.lang.String"__concat*
-
-%1java.lang.String*
-, bairroOrigem=ù
-ö
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3O 3([$
-%3com.trabfinal.entidades.Bairro"__id*5*3!
-com.trabfinal.entidades.Roteiro"
-bairroOrigemú
-÷
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3([
-%4java.lang.String"__concat*
-
-%2java.lang.String*&
-$
-%3com.trabfinal.entidades.BairroÙ
-Ö
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3(a
-%5java.lang.String"__concat*
-
-%4java.lang.String*
-]"­
-
-…C:/Users/John Peter/Desktop/Aulas/VERIVAL/Veifica-oeValida-oSoftware/TrabalhoFinal/src/main/java/com/trabfinal/entidades/Roteiro.java3 3(b
-
-%5java.lang.StringB#!
-com.trabfinal.entidades.Roteiro
