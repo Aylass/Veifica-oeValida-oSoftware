@@ -1,4 +1,4 @@
-package com.trabfinal.casosDeUso.Repositorios;
+package com.trabfinal.casosDeUso.TesteUnitario.Repositorios;
 
 import java.util.List;
 

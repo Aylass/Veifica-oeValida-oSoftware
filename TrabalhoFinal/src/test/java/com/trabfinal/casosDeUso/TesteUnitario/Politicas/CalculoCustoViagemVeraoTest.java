@@ -1,4 +1,4 @@
-package com.trabfinal.casosDeUso.Politicas;
+package com.trabfinal.casosDeUso.TesteUnitario.Politicas;
 
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-public class CalculoCustoViagemRelampagoTest {
+public class CalculoCustoViagemVeraoTest {
     @Mock
     Passageiro mPassageiro;
 
@@ -24,7 +24,7 @@ public class CalculoCustoViagemRelampagoTest {
     @Mock
     Bairro mBairro;
 
-    CalculoCustoViagemRelampago ccvr;
+    CalculoCustoViagemVerao ccvv;
 
     RepositorioBairrosImplMem repoBairrosMem;
 
@@ -32,7 +32,7 @@ public class CalculoCustoViagemRelampagoTest {
 
     @BeforeEach
     void setup(){
-        ccvr = new CalculoCustoViagemRelampago();
+        ccvv = new CalculoCustoViagemVerao();
         repoBairrosMem = new RepositorioBairrosImplMem();
         mockList = new ArrayList<Bairro>();
         MockitoAnnotations.initMocks(this);
@@ -45,53 +45,52 @@ public class CalculoCustoViagemRelampagoTest {
     }
 
     @Test
-    public void TesteDescontoCincoPorCento(){
+    public void TesteDescontoNovePorCento(){
         when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 60 );
-        when(mPassageiro.getPontuacaoMedia()).thenReturn( 7 );
+        when(mPassageiro.getPontuacaoMedia()).thenReturn( 10 );
         mockList.add(mBairro);
         mockList.add(mBairro);
 
-        double expected = 20.0 * 0.95;
+        double expected = 20.0 * 0.91;
 
-        ccvr.definePassageiro(mPassageiro);
-        ccvr.defineRoteiro(mRoteiro);
+        ccvv.definePassageiro(mPassageiro);
+        ccvv.defineRoteiro(mRoteiro);
 
-        double current = ccvr.custoViagem();
+        double current = ccvv.custoViagem();
 
         assertEquals(expected, current);
     }
 
     @Test
-    public void TesteDescontoMaisDe3Bairros(){
+    public void TesteDescontoMaisDe2Bairros(){
         when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 20 );
         when(mPassageiro.getPontuacaoMedia()).thenReturn( 5 );
         mockList.add(mBairro);
         mockList.add(mBairro);
         mockList.add(mBairro);
         mockList.add(mBairro);
-        double expected = 40.0 * 0.95;
+        double expected = 40.0 * 0.90;
 
-        ccvr.definePassageiro(mPassageiro);
-        ccvr.defineRoteiro(mRoteiro);
+        ccvv.definePassageiro(mPassageiro);
+        ccvv.defineRoteiro(mRoteiro);
 
-        double current = ccvr.custoViagem();
-
+        double current = ccvv.custoViagem();
         assertEquals(expected, current);
     }
     @Test
     public void TesteDescontoTodos(){
         when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 60 );
-        when(mPassageiro.getPontuacaoMedia()).thenReturn( 7 );
+        when(mPassageiro.getPontuacaoMedia()).thenReturn( 10 );
         mockList.add(mBairro);
         mockList.add(mBairro);
         mockList.add(mBairro);
         mockList.add(mBairro);
-        double expected = 40.0 * 0.90;
+        double expected = 40.0 * 0.81;
 
-        ccvr.definePassageiro(mPassageiro);
-        ccvr.defineRoteiro(mRoteiro);
+        ccvv.definePassageiro(mPassageiro);
+        ccvv.defineRoteiro(mRoteiro);
 
-        double current = ccvr.custoViagem();
+        double current = ccvv.custoViagem();
 
         assertEquals(expected, current);
     }
@@ -101,13 +100,12 @@ public class CalculoCustoViagemRelampagoTest {
         when(mPassageiro.getPontuacaoMedia()).thenReturn( 5 );
         mockList.add(mBairro);
         mockList.add(mBairro);
-        mockList.add(mBairro);
-        double expected = 30.0;
+        double expected = 20.0;
 
-        ccvr.definePassageiro(mPassageiro);
-        ccvr.defineRoteiro(mRoteiro);
+        ccvv.definePassageiro(mPassageiro);
+        ccvv.defineRoteiro(mRoteiro);
 
-        double current = ccvr.custoViagem();
+        double current = ccvv.custoViagem();
 
         assertEquals(expected, current);
     }

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.trabfinal.casosDeUso.Repositorios.RepositorioPassageiros;
+import com.trabfinal.casosDeUso.TesteUnitario.Repositorios.RepositorioPassageiros;
 import com.trabfinal.entidades.Passageiro;
 
 public class RepositorioPassageirosImplMem implements RepositorioPassageiros {

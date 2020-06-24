@@ -1,4 +1,4 @@
-package com.trabfinal.casosDeUso.Politicas;
+package com.trabfinal.casosDeUso.TesteUnitario.Politicas;
 
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;

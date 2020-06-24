@@ -1,14 +1,14 @@
-package com.trabfinal.casosDeUso.Servicos;
+package com.trabfinal.casosDeUso.TesteUnitario.Servicos;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.trabfinal.casosDeUso.Politicas.CustoViagem;
-import com.trabfinal.casosDeUso.Politicas.CalculoCustoViagem;
-import com.trabfinal.casosDeUso.Repositorios.RepositorioBairros;
-import com.trabfinal.casosDeUso.Repositorios.RepositorioPassageiros;
+import com.trabfinal.casosDeUso.TesteUnitario.Politicas.CustoViagem;
+import com.trabfinal.casosDeUso.TesteUnitario.Politicas.CalculoCustoViagem;
+import com.trabfinal.casosDeUso.TesteUnitario.Repositorios.RepositorioBairros;
+import com.trabfinal.casosDeUso.TesteUnitario.Repositorios.RepositorioPassageiros;
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;

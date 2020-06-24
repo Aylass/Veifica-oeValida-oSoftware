@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.trabfinal.casosDeUso.Repositorios.RepositorioBairros;
+import com.trabfinal.casosDeUso.TesteUnitario.Repositorios.RepositorioBairros;
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.geometria.Ponto;
 
