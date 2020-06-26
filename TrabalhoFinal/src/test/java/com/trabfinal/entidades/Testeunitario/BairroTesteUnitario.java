@@ -16,7 +16,7 @@ private static Ponto ponto;
 
 
     @Test
-    void novoBairroQuadrado1() {
+    void novoBairroQuadrado1X() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);
@@ -27,7 +27,7 @@ private static Ponto ponto;
     }
 
     @Test
-    void novoBairroQuadrado2() {
+    void novoBairroQuadrado2Y() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);
@@ -38,7 +38,7 @@ private static Ponto ponto;
     }
 
     @Test
-    void novoBairroRetangular1() {
+    void novoBairroRetangular1X() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);
@@ -49,7 +49,7 @@ private static Ponto ponto;
     }
 
     @Test
-    void novoBairroRetangular2() {
+    void novoBairroRetangular1Y() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);
@@ -60,7 +60,7 @@ private static Ponto ponto;
     }
 
     @Test
-    void verificarCustoTransporte() {
+    void novoBairroQudrado2() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);
@@ -71,7 +71,7 @@ private static Ponto ponto;
     }
 
     @Test
-    void verificarCustoTransporte2() {
+    void novoBairroRetangular2() {
 
         ponto=mock(Ponto.class);
         when(ponto.getX()).thenReturn(10);

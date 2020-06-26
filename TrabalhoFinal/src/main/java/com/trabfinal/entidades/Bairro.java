@@ -8,16 +8,16 @@ public class Bairro {
     private Area area;
     private double custoTransporte;
 
-    public static Bairro novoBairroQuadrado(String nome,Ponto pSupEsq,int lado,double custoTransporte){//necessita testar
+    public static Bairro novoBairroQuadrado(String nome,Ponto pSupEsq,int lado,double custoTransporte){
         Ponto pInfDir = new Ponto(pSupEsq.getX()+lado,pSupEsq.getY()-lado);//defini o ponto inferior
         return new Bairro(nome,new Area(pSupEsq,pInfDir),custoTransporte);
     }
 
-    public static Bairro novoBairroRetangular(String nome,Ponto pSupEsq,int ladoH,int ladoV,double custoTransporte){//necessita testar
+    public static Bairro novoBairroRetangular(String nome,Ponto pSupEsq,int ladoH,int ladoV,double custoTransporte){
         Ponto pInfDir = new Ponto(pSupEsq.getX()+ladoH,pSupEsq.getY()-ladoV);
         return new Bairro(nome,new Area(pSupEsq,pInfDir),custoTransporte);
     }
-    public Bairro(String nome, Area area, double custoTransporte) {//acho que falta verificar pra ver se o preco n eh negativo ou nulo
+    public Bairro(String nome, Area area, double custoTransporte) {//acho que falta verificar pra ver se o preco n eh negativo
         if(custoTransporte<0.0)
         {
             throw new IllegalArgumentException("Valor do custo da viagem invalido");
@@ -41,7 +41,7 @@ public class Bairro {
         return this.custoTransporte;
     }
 
-    public void alteraCustoTransporte(double novoValor){//testar
+    public void alteraCustoTransporte(double novoValor){
         if (novoValor < 0.0){
             throw new IllegalArgumentException("Valor invalido");
         }else{

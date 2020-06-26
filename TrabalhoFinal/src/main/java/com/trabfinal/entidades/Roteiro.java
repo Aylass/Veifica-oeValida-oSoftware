@@ -12,7 +12,7 @@ public class Roteiro {
     private Reta rota;
     private Collection<Bairro> bairrosPercorridos;
 
-    private void determinaBairrosPercorridos(Reta rota,Collection<Bairro> todosBairros){
+    private void determinaBairrosPercorridos(Reta rota,Collection<Bairro> todosBairros){//precisa ser testada
         for(Bairro bairro:todosBairros){
             SituacaoReta sr = bairro.getArea().classifica(rota);
             if (sr != SituacaoReta.TODA_FORA){
