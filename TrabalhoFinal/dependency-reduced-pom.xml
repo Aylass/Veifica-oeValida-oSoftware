@@ -135,10 +135,10 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.projectKey>Trabalho_Final_VV</sonar.projectKey>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.login>ae81f71233a2735345aaf9111437d7aad464d4b1</sonar.login>
+    <sonar.projectKey>Trabalho_Final_VV</sonar.projectKey>
     <sonar.organization>johnnyloreano</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 </project>
 
