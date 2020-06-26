@@ -1,5 +1,6 @@
 package com.trabfinal.entidades;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import com.trabfinal.entidades.geometria.Ponto;
@@ -13,6 +14,7 @@ public class Roteiro {
     private Collection<Bairro> bairrosPercorridos;
 
     private void determinaBairrosPercorridos(Reta rota,Collection<Bairro> todosBairros){//precisa ser testada
+        bairrosPercorridos = new ArrayList<Bairro>();
         for(Bairro bairro:todosBairros){
             SituacaoReta sr = bairro.getArea().classifica(rota);
             if (sr != SituacaoReta.TODA_FORA){
