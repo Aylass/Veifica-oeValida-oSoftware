@@ -26,14 +26,11 @@ public class CalculoCustoViagemVeraoTest {
 
     CalculoCustoViagemVerao ccvv;
 
-    RepositorioBairrosImplMem repoBairrosMem;
-
     ArrayList<Bairro> mockList;
 
     @BeforeEach
     void setup(){
         ccvv = new CalculoCustoViagemVerao();
-        repoBairrosMem = new RepositorioBairrosImplMem();
         mockList = new ArrayList<Bairro>();
         MockitoAnnotations.initMocks(this);
 
@@ -57,7 +54,7 @@ public class CalculoCustoViagemVeraoTest {
         ccvv.defineRoteiro(mRoteiro);
 
         double current = ccvv.custoViagem();
-
+        //BUG FOUND, calculo do desconto estava sendo 90%, e não 9%
         assertEquals(expected, current);
     }
 
@@ -92,7 +89,7 @@ public class CalculoCustoViagemVeraoTest {
 
         double current = ccvv.custoViagem();
 
-        assertEquals(expected, current);
+        assertEquals(expected, current, 0.0001);
     }
     @Test
     public void TesteDesconto3BairrosSemDesconto(){

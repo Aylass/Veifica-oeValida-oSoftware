@@ -4,6 +4,7 @@ import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;
 
 public class CustoViagem {
+
     private CalculoCustoViagem ccv;
     
     public CustoViagem(CalculoCustoViagem ccv){

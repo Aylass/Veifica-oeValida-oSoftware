@@ -97,7 +97,7 @@ public class CalculoCustoViagemRelampagoTest {
     }
     @Test
     public void TesteDesconto3BairrosSemDesconto(){
-        when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 20 );
+        when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 30 );
         when(mPassageiro.getPontuacaoMedia()).thenReturn( 5 );
         mockList.add(mBairro);
         mockList.add(mBairro);
