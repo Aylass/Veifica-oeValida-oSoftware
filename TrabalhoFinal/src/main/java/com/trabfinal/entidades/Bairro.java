@@ -18,15 +18,10 @@ public class Bairro {
         return new Bairro(nome,new Area(pSupEsq,pInfDir),custoTransporte);
     }
     public Bairro(String nome, Area area, double custoTransporte) {//acho que falta verificar pra ver se o preco n eh negativo
-        if(custoTransporte<0.0)
-        {
-            throw new IllegalArgumentException("Valor do custo da viagem invalido");
-        }
-        else {
             this.nome = nome;
             this.area = area;
             this.custoTransporte = custoTransporte;
-        }
+
     }
 
     public String getNome() {

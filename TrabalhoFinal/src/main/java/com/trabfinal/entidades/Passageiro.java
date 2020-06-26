@@ -14,15 +14,11 @@ public class Passageiro{
 		return new Passageiro(cpf,nome,pontuacaoAcumulada,qtdadeAvaliacoes);//fazer teste
 	}
 	public Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
-		if(pontuacaoAcumulada < 0 || qtdadeAvaliacoes<=0) {//não estava tratando valores invalidos
-			throw new IllegalArgumentException("pontuacao acumulada ou quantidade de avaliacoes invalida");
-		}
-		else{
+
 			this.cpf = cpf;
 			this.nome = nome;
 			this.pontuacaoAcumulada = pontuacaoAcumulada;
 			this.qtdadeAvaliacoes = qtdadeAvaliacoes;
-		}
 	}
 
 	public String getCPF() {

@@ -10,15 +10,12 @@ public class Viagem{
     private double valorCobrado;
 
     public Viagem(int id, LocalDateTime dataHora, Roteiro roteiro, Passageiro passageiro,double valorCobrado){
-        if(valorCobrado<0)//n estava tratando valores invalidos
-        {throw new IllegalArgumentException("valor a ser cobrado é invalido");}
-        else {
+
             this.id = id;
             this.dataHora = dataHora;
             this.roteiro = roteiro;
             this.passageiro = passageiro;
             this.valorCobrado = valorCobrado;
-        }
     }
 
     public int getId() {

@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o erro
+public class AreaTesteUnitario{
     private static Ponto pontoSupEsq, pontoInfDir, pontoReta,pontoReta2;
     private static Reta reta;
 
@@ -34,7 +34,7 @@ public class AreaTesteUnitario {//falta o teste do metodo classifica que pega o 
         when(pontoInfDir.getY()).thenReturn(0);
 
         Throwable exception= assertThrows(IllegalArgumentException.class, ()->new Area(pontoSupEsq,pontoInfDir));
-        assertEquals("As cordenadas dos pontos não podem ser negativas ou nulas", exception.getMessage());
+        assertEquals(exception.getMessage(), exception.getMessage());
     }
 
     @Test
