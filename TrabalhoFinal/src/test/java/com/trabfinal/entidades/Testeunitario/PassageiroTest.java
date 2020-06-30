@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class PassageiroTesteUnitario {
+class PassageiroTest {
 
    private static Passageiro passageiro;
 

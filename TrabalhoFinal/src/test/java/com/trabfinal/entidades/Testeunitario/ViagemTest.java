@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class ViagemTesteUnitario {
+class ViagemTest {
 
     private static Roteiro roteiro;
     private static Passageiro passageiro;

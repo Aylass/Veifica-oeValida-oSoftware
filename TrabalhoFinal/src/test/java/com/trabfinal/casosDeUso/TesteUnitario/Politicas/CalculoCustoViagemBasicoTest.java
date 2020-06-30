@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-public class CalculoCustoViagemTest {
+public class CalculoCustoViagemBasicoTest {
 
     @Mock
     Roteiro mRoteiro;

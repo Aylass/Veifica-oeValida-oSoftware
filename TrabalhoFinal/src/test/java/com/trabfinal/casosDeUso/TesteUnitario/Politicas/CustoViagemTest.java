@@ -3,9 +3,9 @@ package com.trabfinal.casosDeUso.TesteUnitario.Politicas;
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;
-import com.trabfinal.interfaces.Persistencia.RepositorioBairrosImplMem;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -15,50 +15,34 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 public class CustoViagemTest {
+    @Mock
+    CalculoCustoViagemBasico ccvb;
+
 
     @Mock
-    Passageiro mPassageiro;
-
-    @Mock
-    Roteiro mRoteiro;
-
-    @Mock
-    CalculoCustoViagemBasico mCcvb;
-
-    @Mock
-    Bairro mBairro;
+    CalculoCustoViagem ccv;
 
     CustoViagem cv;
 
-    ArrayList<Bairro> mockList;
-
     @BeforeEach
     void setup(){
-        mockList = new ArrayList<Bairro>();
-
         MockitoAnnotations.initMocks(this);
-
-        cv = new CustoViagem(mCcvb);
-
-        when(mRoteiro.bairrosPercoridos()).thenReturn(mockList);
-
-        when(mBairro.getCustoTransporte()).thenReturn(10.0);
-        when(mBairro.getArea()).thenReturn(null);
-        when(mBairro.getNome()).thenReturn("Test");
+        when(ccvb.getPassageiro()).thenReturn(null);
+        when(ccv.custoViagem()).thenReturn(10.0);
+        when(ccvb.custoViagem()).thenReturn(10.0);
+        when(ccvb.getRoteiro()).thenReturn(null);
     }
 
     @Test
-    public void TesteCustoViagem(){
-        when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 60 );
-        when(mPassageiro.getPontuacaoMedia()).thenReturn( 7 );
-        mockList.add(mBairro);
-        mockList.add(mBairro);
-
-        double expected = 20.0 * 0.95;
-
+    void testChamadaCustoViagem(){
+        double expected = 10.0;
+        Passageiro mPassageiro = ccvb.getPassageiro();
+        Roteiro mRoteiro = ccvb.getRoteiro();
+        cv = new CustoViagem(ccv);
         double current = cv.custoViagem(mRoteiro,mPassageiro);
 
         assertEquals(expected, current);
+
     }
 
 }

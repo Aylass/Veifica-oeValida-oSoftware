@@ -92,7 +92,7 @@ public class CalculoCustoViagemVeraoTest {
         assertEquals(expected, current, 0.0001);
     }
     @Test
-    public void TesteDesconto3BairrosSemDesconto(){
+    public void TesteSemDesconto(){
         when(mPassageiro.getQtdadeAvaliacoes()).thenReturn( 20 );
         when(mPassageiro.getPontuacaoMedia()).thenReturn( 5 );
         mockList.add(mBairro);

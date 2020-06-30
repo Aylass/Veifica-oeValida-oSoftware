@@ -9,16 +9,11 @@ public class Area {
         if ((pSupEsq.getX() >= pInfDir.getX()) || (pSupEsq.getY() <= pInfDir.getY())) {
             throw new IllegalArgumentException("O retangulo deve ser definido pela diagonal principal");
         }
-<<<<<<< HEAD
-        //else if(pSupEsq.getX()<=0 || pInfDir.getX()<=0 || pSupEsq.getY()<=0 || pInfDir.getY()<=0){
-        //    throw new IllegalArgumentException("As cordenadas dos pontos não podem ser negativas ou nulas");
-         else {
-=======
-//        else if(pSupEsq.getX()<=0 || pInfDir.getX()<=0 || pSupEsq.getY()<=0 || pInfDir.getY()<=0){
+//        else if(pSupEsq.getX()<=0 || pInfDir.getX()<=0 || pSupEsq.getY()<=0 || pInfDir.getY()<=0) {
 //            throw new IllegalArgumentException("As cordenadas dos pontos não podem ser negativas ou nulas");
+//
 //        }
         else {
->>>>>>> a6d9346f04376e38bb4f3b0c6a1947401897a96c
             this.pSupEsq = pSupEsq;
             this.pInfDir = pInfDir;
         }

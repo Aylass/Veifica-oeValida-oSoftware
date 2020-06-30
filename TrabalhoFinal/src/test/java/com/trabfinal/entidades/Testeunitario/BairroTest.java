@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class BairroTesteUnitario {
+class BairroTest {
 private static Bairro bairro;
 private static Ponto ponto;
 
