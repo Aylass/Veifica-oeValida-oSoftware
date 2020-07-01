@@ -27,7 +27,7 @@ public class Roteiro {
         this.bairroOrigem = bairroOrigem;
         this.bairroDestino = bairroDestino;
         Ponto pOrig = bairroOrigem.getArea().pontoCentral();
-        Ponto pDest = bairroOrigem.getArea().pontoCentral();
+        Ponto pDest = bairroDestino.getArea().pontoCentral();//antigo bug tava botando origem no destino
         rota =  new Reta(pOrig,pDest);
         determinaBairrosPercorridos(rota,todosBairros);
     }
