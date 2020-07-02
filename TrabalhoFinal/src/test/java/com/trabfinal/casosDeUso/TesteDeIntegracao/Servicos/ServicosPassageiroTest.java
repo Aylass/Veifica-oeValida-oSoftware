@@ -5,6 +5,7 @@ import com.trabfinal.casosDeUso.TesteUnitario.Servicos.ServicosPassageiro;
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;
+import com.trabfinal.entidades.Viagem;
 import com.trabfinal.entidades.geometria.Reta;
 import com.trabfinal.interfaces.Persistencia.RepositorioBairrosImplMem;
 import com.trabfinal.interfaces.Persistencia.RepositorioPassageirosImplMem;
@@ -14,6 +15,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -27,6 +29,7 @@ public class ServicosPassageiroTest {
     RepositorioPassageirosImplMem repositorioPassageiros;
     ServicosPassageiro servicosPassageiroB;    
     CalculoCustoViagemBasico ccvB;
+    Viagem viagem;
 
     @BeforeEach
     void setup(){ 
@@ -45,7 +48,35 @@ public class ServicosPassageiroTest {
         ccvB.defineRoteiro(roteiro);
 
         servicosPassageiroB = new ServicosPassageiro(repositorioBairros,repositorioPassageiros,ccvB);
+        viagem = new Viagem(1,LocalDateTime.now(),roteiro,passageiro,ccvB.custoViagem());
     }
+
+
+    @Test
+    public void testServicosPassageiroCriarViagemId(){
+        int expected = viagem.getId();
+        int result = servicosPassageiroB.criaViagem(1, roteiro, passageiro.getCPF()).getId();
+        assertEquals(expected, result);
+    }
+    @Test
+    public void testServicosPassageiroCriarViagemRoteiro(){
+        Roteiro expected = viagem.getRoteiro();
+        Roteiro result = servicosPassageiroB.criaViagem(1, roteiro, passageiro.getCPF()).getRoteiro();
+        assertEquals(expected, result);
+    }
+    @Test
+    public void testServicosPassageiroCriarViagemPassageiro(){
+        Passageiro expected = viagem.getPassageiro();
+        Passageiro result = servicosPassageiroB.criaViagem(1, roteiro, passageiro.getCPF()).getPassageiro();
+        assertEquals(expected, result);
+    }
+    @Test
+    public void testServicosPassageiroCriarValorCobrado(){
+        double expected = viagem.getValorCobrado();
+        double result = servicosPassageiroB.criaViagem(1, roteiro, passageiro.getCPF()).getValorCobrado();
+        assertEquals(expected, result);
+    }
+
 
     @Test
     public void testServicosPassageiroGetBairros(){
