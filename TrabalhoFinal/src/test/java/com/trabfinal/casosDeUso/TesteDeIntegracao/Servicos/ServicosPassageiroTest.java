@@ -1,18 +1,23 @@
-package com.trabfinal.casosDeUso.TesteDeIntegracao.Politicas;
+package com.trabfinal.casosDeUso.TesteDeIntegracao.Servicos;
 
 import com.trabfinal.casosDeUso.TesteUnitario.Politicas.CalculoCustoViagemBasico;
+import com.trabfinal.casosDeUso.TesteUnitario.Servicos.ServicosPassageiro;
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
 import com.trabfinal.entidades.Roteiro;
+import com.trabfinal.entidades.geometria.Reta;
 import com.trabfinal.interfaces.Persistencia.RepositorioBairrosImplMem;
 import com.trabfinal.interfaces.Persistencia.RepositorioPassageirosImplMem;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculoCustoViagemBasicoTest {
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ServicosPassageiroTest {
     Passageiro passageiro;
     Roteiro roteiro;
     Bairro bairroOrigem;
@@ -20,8 +25,7 @@ public class CalculoCustoViagemBasicoTest {
     List<Bairro> listbairro;
     RepositorioBairrosImplMem repositorioBairros;
     RepositorioPassageirosImplMem repositorioPassageiros;
-
-    
+    ServicosPassageiro servicosPassageiroB;    
     CalculoCustoViagemBasico ccvB;
 
     @BeforeEach
@@ -39,28 +43,33 @@ public class CalculoCustoViagemBasicoTest {
         ccvB = new CalculoCustoViagemBasico();
         ccvB.definePassageiro(passageiro);
         ccvB.defineRoteiro(roteiro);
+
+        servicosPassageiroB = new ServicosPassageiro(repositorioBairros,repositorioPassageiros,ccvB);
     }
 
     @Test
-    public void testCCVBgetSetPassageiro(){
-        ccvB.definePassageiro(passageiro);
-        Passageiro expected = passageiro;
-        Passageiro result = ccvB.getPassageiro();
+    public void testServicosPassageiroGetBairros(){
+        List<String> result = servicosPassageiroB.getListaBairros();
+        List<String> expected = repositorioBairros.recuperaListaBairros().stream().map(b->b.getNome()).collect(Collectors.toList());
         assertEquals(expected, result);
     }
-
     @Test
-    public void testCCVBgetSetRoteiro(){
-        ccvB.defineRoteiro(roteiro);
-        Roteiro expected = roteiro;
-        Roteiro result = ccvB.getRoteiro();
+    public void testServicosPassageiroGetPassageirosCadastrados(){
+        List<String> result = servicosPassageiroB.getPassageirosCadastrados();
+        List<String> expected = repositorioPassageiros.listaPassageiros().stream().map(b->b.getNome()).collect(Collectors.toList());
         assertEquals(expected, result);
     }
-
     @Test
-    public void testCCVBcustoViagem(){
-        double expected = 56;
-        double result = ccvB.custoViagem();
+    public void testServicosPassageiroCriaRoteiroOrigem(){
+        Bairro result = servicosPassageiroB.criaRoteiro(bairroOrigem.getNome(), bairroDestino.getNome()).getBairroOrigem();
+        Bairro expected = roteiro.getBairroOrigem();
         assertEquals(expected, result);
     }
+    @Test
+    public void testServicosPassageiroCriaRoteiroDestino(){
+        Bairro result = servicosPassageiroB.criaRoteiro(bairroOrigem.getNome(), bairroDestino.getNome()).getBairroDestino();
+        Bairro expected = roteiro.getBairroDestino();
+        assertEquals(expected, result);
+    }
+    
 }
