@@ -24,21 +24,9 @@ public class AreaTest {//falta o teste do metodo classifica que pega o erro
         pontoReta2=mock(Ponto.class);
         reta=mock(Reta.class);
     }
+
     @Test
     void construtorTest1() {
-        when(pontoSupEsq.getX()).thenReturn(10);
-        when(pontoSupEsq.getY()).thenReturn(5);
-
-        when(pontoInfDir.getX()).thenReturn(20);
-        when(pontoInfDir.getY()).thenReturn(0);
-
-//        Throwable exception= assertThrows(IllegalArgumentException.class, ()->new Area(pontoSupEsq,pontoInfDir));
-//        assertEquals("As cordenadas dos pontos não podem ser negativas ou nulas", exception.getMessage());
-        assertTrue(true);
-    }
-
-    @Test
-    void construtorTest2() {
 
         when(pontoSupEsq.getX()).thenReturn(-20);
         when(pontoSupEsq.getY()).thenReturn(-10);
@@ -47,12 +35,12 @@ public class AreaTest {//falta o teste do metodo classifica que pega o erro
         when(pontoInfDir.getY()).thenReturn(-20);
 
 //        Throwable exception= assertThrows(IllegalArgumentException.class, ()->new Area(pontoSupEsq,pontoInfDir));
-//        assertEquals("As cordenadas dos pontos não podem ser negativas ou nulas", exception.getMessage());
+//        assertEquals("As cordenadas dos pontos não podem ser negativas", exception.getMessage());
         assertTrue(true);
     }
 
     @Test
-    void construtorTest3() {
+    void construtorTest2() {
         when(pontoSupEsq.getX()).thenReturn(10);
         when(pontoSupEsq.getY()).thenReturn(5);
 

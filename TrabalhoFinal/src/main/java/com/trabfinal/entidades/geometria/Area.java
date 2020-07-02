@@ -4,13 +4,12 @@ public class Area {
     private Ponto pSupEsq, pInfDir;
 
     public Area(Ponto pSupEsq, Ponto pInfDir) {
-//        System.out.println("ex= "+pSupEsq.getX()+"ey= "+pSupEsq.getY()+"dx= "+pInfDir.getX()+"dy= "+pInfDir.getY());
-    //tem q negar coordenadas com valores negativos e nulos
+    //tem q negar coordenadas com valores negativos
         if ((pSupEsq.getX() >= pInfDir.getX()) || (pSupEsq.getY() <= pInfDir.getY())) {
             throw new IllegalArgumentException("O retangulo deve ser definido pela diagonal principal");
         }
-//        else if(pSupEsq.getX()<=0 || pInfDir.getX()<=0 || pSupEsq.getY()<=0 || pInfDir.getY()<=0) {
-//            throw new IllegalArgumentException("As cordenadas dos pontos não podem ser negativas ou nulas");
+//        else if(pSupEsq.getX()<0 || pInfDir.getX()<0 || pSupEsq.getY()<0 || pInfDir.getY()<0) {
+//            throw new IllegalArgumentException("As cordenadas dos pontos não podem ser negativas");
 //
 //        }
         else {
@@ -53,7 +52,7 @@ public class Area {
         byte cod1 = codificaPonto(reta.getP1());
         byte cod2 = codificaPonto(reta.getP2());
 
-        if ((cod1 | cod2) == 0) {//talvez tenha q ser & n |, se os valores de x e y dos pontos estiverem entre os dos pSupEsq e PInfDir, entra no if
+        if ((cod1 | cod2) == 0) {
             return SituacaoReta.TODA_DENTRO;
         } else {
             for (byte val = 1; val <= 8; val *= 2) {
