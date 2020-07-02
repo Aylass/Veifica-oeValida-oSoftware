@@ -37,7 +37,7 @@ class ViagemTest {
     }
 
     @Test
-    void getdataHora()
+    void dataHora()
     {
         Throwable exception= assertThrows(java.time.DateTimeException.class, ()->dataHora = LocalDateTime.of(2021,22,12,21,30));
         assertEquals("Invalid value for MonthOfYear (valid values 1 - 12): 22", exception.getMessage());
