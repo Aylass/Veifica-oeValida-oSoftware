@@ -1,3 +1,4 @@
+package com.trabfinal.entidades.TestIntegracao;
 
 import com.trabfinal.entidades.Bairro;
 import com.trabfinal.entidades.Passageiro;
